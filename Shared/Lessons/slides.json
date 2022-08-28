@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "Introduction to public speaking",
+        "description": "Understanding the art",
+        "pdfName": "IntroToPublicSpeaking",
+        "imageName": "ic_learn_microphone"
+    },
+    {
+        "id": 2,
+        "name": "Body Language",
+        "description": "Posture is everything",
+        "pdfName": "BodyLanguage",
+        "imageName": "ic_learn_body_language"
+    },
+    {
+        "id": 3,
+        "name": "Stage Fright",
+        "description": "Combat speaking anxiety",
+        "pdfName": "StageFright",
+        "imageName": "ic_learn_stage_fright"
+    },
+    {
+        "id": 4,
+        "name": "Storytelling",
+        "description": "We are all natural storytellers",
+        "pdfName": "Storytelling",
+        "imageName": "ic_learn_story_telling"
+    },
+    {
+        "id": 5,
+        "name": "Inspire Your Audience",
+        "description": "Use your voice for good",
+        "pdfName": "InspireYourAudience",
+        "imageName": "ic_learn_inspire"
+    }
+]
