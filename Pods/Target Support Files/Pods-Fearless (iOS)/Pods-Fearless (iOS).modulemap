@@ -1,0 +1,6 @@
+framework module Pods_Fearless__iOS_ {
+  umbrella header "Pods-Fearless (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,1099 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		217AB3FB99014209FD619A2C /* Pods_Fearless__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 236FAD45E2AAEF40FF5750E4 /* Pods_Fearless__iOS_.framework */; };
+		3A02DB5126BA750800E0C94D /* RecordingDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A02DB5026BA750800E0C94D /* RecordingDetailView.swift */; };
+		3A27D97926BD0AAB00BD972C /* FLTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A27D97826BD0AAB00BD972C /* FLTag.swift */; };
+		3A27D97F26BD0AEB00BD972C /* TagView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A27D97E26BD0AEB00BD972C /* TagView.swift */; };
+		3A27D9A926BD89BA00BD972C /* TagListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A27D9A826BD89B900BD972C /* TagListView.swift */; };
+		3A29093A26BBBF0F00A8FBBB /* Optional+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A29093926BBBF0F00A8FBBB /* Optional+Extensions.swift */; };
+		3A29094026BBECBF00A8FBBB /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A29093F26BBECBF00A8FBBB /* String+Extensions.swift */; };
+		3A29096126BC29A400A8FBBB /* CustomizeWordsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A29096026BC29A400A8FBBB /* CustomizeWordsView.swift */; };
+		3A2D8BB126B27BAC0060D628 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D8BB026B27BAB0060D628 /* TabBar.swift */; };
+		3A2D8BB826B2B6C90060D628 /* PracticeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D8BB726B2B6C90060D628 /* PracticeView.swift */; };
+		3A2D8BBE26B2CD240060D628 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A2D8BBD26B2CD240060D628 /* Constants.swift */; };
+		3A2D8BCE26B2D18C0060D628 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3A2D8BCD26B2D18C0060D628 /* Podfile */; };
+		3A2D8BCF26B2D18C0060D628 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 3A2D8BCD26B2D18C0060D628 /* Podfile */; };
+		3A311B1F26C1B1E9004F1B73 /* HorizontalLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A311B1E26C1B1E9004F1B73 /* HorizontalLine.swift */; };
+		3A3D25C226BAC8200083090E /* FLWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A3D25C126BAC8200083090E /* FLWord.swift */; };
+		3A419F3A2692E53200EC3F08 /* VIew+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A419F392692E53000EC3F08 /* VIew+Extension.swift */; };
+		3A769FB026C0F66700EE49F8 /* FLMediaPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A769FAF26C0F66700EE49F8 /* FLMediaPlayer.swift */; };
+		3A769FBA26C0F86E00EE49F8 /* FLFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A769FB926C0F86E00EE49F8 /* FLFileManager.swift */; };
+		3A769FC426C13A8600EE49F8 /* Number+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A769FC326C13A8600EE49F8 /* Number+Extensions.swift */; };
+		3A777D0626B17A4E004673C1 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A777D0526B17A4E004673C1 /* MainView.swift */; };
+		3A777D0C26B17B78004673C1 /* LearnView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A777D0B26B17B78004673C1 /* LearnView.swift */; };
+		3A777D1226B18538004673C1 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A777D1126B18538004673C1 /* Color+Extensions.swift */; };
+		3AE2AF7326B41A8D00E8E967 /* RecordRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE2AF7226B41A8D00E8E967 /* RecordRow.swift */; };
+		3AE6CC4C26B8103E00BA4EC1 /* FLFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AE6CC4B26B8103E00BA4EC1 /* FLFormatter.swift */; };
+		7C23DC1B266B30470019DC85 /* SlideProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C23DC1A266B30470019DC85 /* SlideProperties.swift */; };
+		7C23DC1F266B328C0019DC85 /* slides.json in Resources */ = {isa = PBXBuildFile; fileRef = 7C23DC1E266B328C0019DC85 /* slides.json */; };
+		7C7CEAE92676864B00119564 /* IntroToPublicSpeaking.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7CEAE82676864B00119564 /* IntroToPublicSpeaking.pdf */; };
+		7C7CEAED267689EE00119564 /* StageFright.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7CEAEC267689EE00119564 /* StageFright.pdf */; };
+		7C7CEAEF267689F300119564 /* Storytelling.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7CEAEE267689F300119564 /* Storytelling.pdf */; };
+		7C7CEAF1267689F900119564 /* InspireYourAudience.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7CEAF0267689F900119564 /* InspireYourAudience.pdf */; };
+		7C7CEAF326768A8500119564 /* BodyLanguage.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 7C7CEAF226768A8500119564 /* BodyLanguage.pdf */; };
+		7C9024D3266DC2DA00A8EA48 /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9024D2266DC2DA00A8EA48 /* ModelData.swift */; };
+		7C9024D9266DC4E300A8EA48 /* SlidesRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9024D8266DC4E300A8EA48 /* SlidesRow.swift */; };
+		7CBB8BE9264720770039203B /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8BE8264720770039203B /* Tests_iOS.swift */; };
+		7CBB8BF4264720770039203B /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8BF3264720770039203B /* Tests_macOS.swift */; };
+		7CBB8C372647209C0039203B /* AccountInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C262647209C0039203B /* AccountInfo.swift */; };
+		7CBB8C382647209C0039203B /* VisualBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C282647209C0039203B /* VisualBarView.swift */; };
+		7CBB8C392647209C0039203B /* MicManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C292647209C0039203B /* MicManager.swift */; };
+		7CBB8C3A2647209C0039203B /* BottomTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C2A2647209C0039203B /* BottomTab.swift */; };
+		7CBB8C3B2647209C0039203B /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C2B2647209C0039203B /* MenuView.swift */; };
+		7CBB8C3C2647209C0039203B /* SpeechManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C2D2647209C0039203B /* SpeechManager.swift */; };
+		7CBB8C3D2647209C0039203B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CBB8C2E2647209C0039203B /* Assets.xcassets */; };
+		7CBB8C3E2647209C0039203B /* fearless.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C2F2647209C0039203B /* fearless.swift */; };
+		7CBB8C3F2647209C0039203B /* FearlessApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C302647209C0039203B /* FearlessApp.swift */; };
+		7CBB8C402647209C0039203B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C312647209C0039203B /* ContentView.swift */; };
+		7CBB8C412647209C0039203B /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C332647209C0039203B /* Persistence.swift */; };
+		7CBB8C422647209C0039203B /* TodoList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C342647209C0039203B /* TodoList.xcdatamodeld */; };
+		7CBB8C432647209C0039203B /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBB8C362647209C0039203B /* ViewRouter.swift */; };
+		7CCE19F12675BB5800CA9C82 /* PDFView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE19F02675BB5800CA9C82 /* PDFView.swift */; };
+		7CCE19F32675BF6700CA9C82 /* SlidesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE19F22675BF6700CA9C82 /* SlidesList.swift */; };
+		7CCE19F52675C4B700CA9C82 /* SlideDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCE19F42675C4B700CA9C82 /* SlideDetail.swift */; };
+		EB73F9FE4B25B1238E37466A /* Pods_Fearless__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9786D176166F788E569D2E76 /* Pods_Fearless__macOS_.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7CBB8BE5264720770039203B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CBB8BC5264720750039203B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CBB8BD3264720770039203B;
+			remoteInfo = "Fearless (iOS)";
+		};
+		7CBB8BF0264720770039203B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7CBB8BC5264720750039203B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7CBB8BDB264720770039203B;
+			remoteInfo = "Fearless (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14055BC5EBDAD54D4B9B34B8 /* Pods-Fearless (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fearless (macOS).release.xcconfig"; path = "Target Support Files/Pods-Fearless (macOS)/Pods-Fearless (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		236FAD45E2AAEF40FF5750E4 /* Pods_Fearless__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fearless__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C3E03C19EE7FC873B0A357C /* Pods-Fearless (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fearless (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Fearless (iOS)/Pods-Fearless (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+		3A02DB5026BA750800E0C94D /* RecordingDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordingDetailView.swift; sourceTree = "<group>"; };
+		3A27D97826BD0AAB00BD972C /* FLTag.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLTag.swift; sourceTree = "<group>"; };
+		3A27D97E26BD0AEB00BD972C /* TagView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagView.swift; sourceTree = "<group>"; };
+		3A27D9A826BD89B900BD972C /* TagListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TagListView.swift; sourceTree = "<group>"; };
+		3A29093926BBBF0F00A8FBBB /* Optional+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Optional+Extensions.swift"; sourceTree = "<group>"; };
+		3A29093F26BBECBF00A8FBBB /* String+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
+		3A29096026BC29A400A8FBBB /* CustomizeWordsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomizeWordsView.swift; sourceTree = "<group>"; };
+		3A2D8BB026B27BAB0060D628 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		3A2D8BB726B2B6C90060D628 /* PracticeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PracticeView.swift; sourceTree = "<group>"; };
+		3A2D8BBD26B2CD240060D628 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		3A2D8BCD26B2D18C0060D628 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; fileEncoding = 4; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		3A311B1E26C1B1E9004F1B73 /* HorizontalLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalLine.swift; sourceTree = "<group>"; };
+		3A3D25C126BAC8200083090E /* FLWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLWord.swift; sourceTree = "<group>"; };
+		3A419F392692E53000EC3F08 /* VIew+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VIew+Extension.swift"; sourceTree = "<group>"; };
+		3A769FAF26C0F66700EE49F8 /* FLMediaPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FLMediaPlayer.swift; sourceTree = "<group>"; };
+		3A769FB926C0F86E00EE49F8 /* FLFileManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLFileManager.swift; sourceTree = "<group>"; };
+		3A769FC326C13A8600EE49F8 /* Number+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Number+Extensions.swift"; sourceTree = "<group>"; };
+		3A777D0526B17A4E004673C1 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		3A777D0B26B17B78004673C1 /* LearnView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnView.swift; sourceTree = "<group>"; };
+		3A777D1126B18538004673C1 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		3AE2AF7226B41A8D00E8E967 /* RecordRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordRow.swift; sourceTree = "<group>"; };
+		3AE6CC4B26B8103E00BA4EC1 /* FLFormatter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FLFormatter.swift; sourceTree = "<group>"; };
+		51E69CE84BA7E6904278392D /* Pods-Fearless (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fearless (iOS).release.xcconfig"; path = "Target Support Files/Pods-Fearless (iOS)/Pods-Fearless (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		7C23DC1A266B30470019DC85 /* SlideProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideProperties.swift; sourceTree = "<group>"; };
+		7C23DC1E266B328C0019DC85 /* slides.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = slides.json; sourceTree = "<group>"; };
+		7C7CEAE82676864B00119564 /* IntroToPublicSpeaking.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = IntroToPublicSpeaking.pdf; sourceTree = "<group>"; };
+		7C7CEAEC267689EE00119564 /* StageFright.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = StageFright.pdf; sourceTree = "<group>"; };
+		7C7CEAEE267689F300119564 /* Storytelling.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = Storytelling.pdf; sourceTree = "<group>"; };
+		7C7CEAF0267689F900119564 /* InspireYourAudience.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = InspireYourAudience.pdf; sourceTree = "<group>"; };
+		7C7CEAF226768A8500119564 /* BodyLanguage.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = BodyLanguage.pdf; sourceTree = "<group>"; };
+		7C9024D2266DC2DA00A8EA48 /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		7C9024D8266DC4E300A8EA48 /* SlidesRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesRow.swift; sourceTree = "<group>"; };
+		7CBB8BD4264720770039203B /* Fearless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fearless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBB8BD7264720770039203B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBB8BDC264720770039203B /* Fearless.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fearless.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBB8BDE264720770039203B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBB8BDF264720770039203B /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		7CBB8BE4264720770039203B /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBB8BE8264720770039203B /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		7CBB8BEA264720770039203B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBB8BEF264720770039203B /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CBB8BF3264720770039203B /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		7CBB8BF5264720770039203B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7CBB8C262647209C0039203B /* AccountInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountInfo.swift; sourceTree = "<group>"; };
+		7CBB8C282647209C0039203B /* VisualBarView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VisualBarView.swift; sourceTree = "<group>"; };
+		7CBB8C292647209C0039203B /* MicManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MicManager.swift; sourceTree = "<group>"; };
+		7CBB8C2A2647209C0039203B /* BottomTab.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BottomTab.swift; sourceTree = "<group>"; };
+		7CBB8C2B2647209C0039203B /* MenuView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		7CBB8C2D2647209C0039203B /* SpeechManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeechManager.swift; sourceTree = "<group>"; };
+		7CBB8C2E2647209C0039203B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7CBB8C2F2647209C0039203B /* fearless.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = fearless.swift; sourceTree = "<group>"; };
+		7CBB8C302647209C0039203B /* FearlessApp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FearlessApp.swift; sourceTree = "<group>"; };
+		7CBB8C312647209C0039203B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7CBB8C332647209C0039203B /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		7CBB8C352647209C0039203B /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
+		7CBB8C362647209C0039203B /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		7CCE19F02675BB5800CA9C82 /* PDFView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PDFView.swift; sourceTree = "<group>"; };
+		7CCE19F22675BF6700CA9C82 /* SlidesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesList.swift; sourceTree = "<group>"; };
+		7CCE19F42675C4B700CA9C82 /* SlideDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideDetail.swift; sourceTree = "<group>"; };
+		9786D176166F788E569D2E76 /* Pods_Fearless__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fearless__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D300E14EB1E9592B6E44CAF2 /* Pods-Fearless (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fearless (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Fearless (macOS)/Pods-Fearless (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CBB8BD1264720770039203B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				217AB3FB99014209FD619A2C /* Pods_Fearless__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BD9264720770039203B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB73F9FE4B25B1238E37466A /* Pods_Fearless__macOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BE1264720770039203B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BEC264720770039203B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3A02DB4F26BA750800E0C94D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3A02DB5026BA750800E0C94D /* RecordingDetailView.swift */,
+				3A29096026BC29A400A8FBBB /* CustomizeWordsView.swift */,
+				3A27D97E26BD0AEB00BD972C /* TagView.swift */,
+				3A27D9A826BD89B900BD972C /* TagListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3A2D8BB626B2B6AC0060D628 /* TabItems */ = {
+			isa = PBXGroup;
+			children = (
+				3A777D0B26B17B78004673C1 /* LearnView.swift */,
+				3A2D8BB726B2B6C90060D628 /* PracticeView.swift */,
+			);
+			path = TabItems;
+			sourceTree = "<group>";
+		};
+		3A311B1D26C1B1D9004F1B73 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				3A311B1E26C1B1E9004F1B73 /* HorizontalLine.swift */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		3A3D25C026BAC8120083090E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3A3D25C126BAC8200083090E /* FLWord.swift */,
+				3A27D97826BD0AAB00BD972C /* FLTag.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3A419F382692E4E300EC3F08 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				3A29093F26BBECBF00A8FBBB /* String+Extensions.swift */,
+				3A29093926BBBF0F00A8FBBB /* Optional+Extensions.swift */,
+				3AE6CC4B26B8103E00BA4EC1 /* FLFormatter.swift */,
+				3A777D1126B18538004673C1 /* Color+Extensions.swift */,
+				3A2D8BBD26B2CD240060D628 /* Constants.swift */,
+				3A419F392692E53000EC3F08 /* VIew+Extension.swift */,
+				3A769FC326C13A8600EE49F8 /* Number+Extensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		3A777D0026B179CA004673C1 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				3A02DB4F26BA750800E0C94D /* Views */,
+				3AE2AF7126B41A8000E8E967 /* CustomCells */,
+				3A2D8BB626B2B6AC0060D628 /* TabItems */,
+				7CBB8C312647209C0039203B /* ContentView.swift */,
+				3A777D0526B17A4E004673C1 /* MainView.swift */,
+				3A2D8BB026B27BAB0060D628 /* TabBar.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3AE2AF7126B41A8000E8E967 /* CustomCells */ = {
+			isa = PBXGroup;
+			children = (
+				3AE2AF7226B41A8D00E8E967 /* RecordRow.swift */,
+			);
+			path = CustomCells;
+			sourceTree = "<group>";
+		};
+		3AE2AF7A26B4305E00E8E967 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				3A769FB926C0F86E00EE49F8 /* FLFileManager.swift */,
+				3A769FAF26C0F66700EE49F8 /* FLMediaPlayer.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		5F9E0C44BCAE948AEC0612FC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2C3E03C19EE7FC873B0A357C /* Pods-Fearless (iOS).debug.xcconfig */,
+				51E69CE84BA7E6904278392D /* Pods-Fearless (iOS).release.xcconfig */,
+				D300E14EB1E9592B6E44CAF2 /* Pods-Fearless (macOS).debug.xcconfig */,
+				14055BC5EBDAD54D4B9B34B8 /* Pods-Fearless (macOS).release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7C23DC19266B2F9C0019DC85 /* Lessons */ = {
+			isa = PBXGroup;
+			children = (
+				7C23DC1E266B328C0019DC85 /* slides.json */,
+				7C23DC1A266B30470019DC85 /* SlideProperties.swift */,
+				7C9024D2266DC2DA00A8EA48 /* ModelData.swift */,
+				7C9024D8266DC4E300A8EA48 /* SlidesRow.swift */,
+				7CCE19F22675BF6700CA9C82 /* SlidesList.swift */,
+				7CCE19F42675C4B700CA9C82 /* SlideDetail.swift */,
+			);
+			path = Lessons;
+			sourceTree = "<group>";
+		};
+		7CBB8BC4264720750039203B = {
+			isa = PBXGroup;
+			children = (
+				3A2D8BCD26B2D18C0060D628 /* Podfile */,
+				7CBB8BC9264720760039203B /* Shared */,
+				7CBB8BD6264720770039203B /* iOS */,
+				7CBB8BDD264720770039203B /* macOS */,
+				7CBB8BE7264720770039203B /* Tests iOS */,
+				7CBB8BF2264720770039203B /* Tests macOS */,
+				7CBB8BD5264720770039203B /* Products */,
+				5F9E0C44BCAE948AEC0612FC /* Pods */,
+				95D8B32CD1ABDF8C30EE8CA8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7CBB8BC9264720760039203B /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				3A311B1D26C1B1D9004F1B73 /* Classes */,
+				3A3D25C026BAC8120083090E /* Models */,
+				3AE2AF7A26B4305E00E8E967 /* Managers */,
+				3A777D0026B179CA004673C1 /* Controllers */,
+				3A419F382692E4E300EC3F08 /* Helpers */,
+				7CBB8C262647209C0039203B /* AccountInfo.swift */,
+				7CBB8C2A2647209C0039203B /* BottomTab.swift */,
+				7CBB8C2F2647209C0039203B /* fearless.swift */,
+				7CBB8C302647209C0039203B /* FearlessApp.swift */,
+				7CBB8C2B2647209C0039203B /* MenuView.swift */,
+				7CCE19F02675BB5800CA9C82 /* PDFView.swift */,
+				7CBB8C362647209C0039203B /* ViewRouter.swift */,
+				7CBB8C2E2647209C0039203B /* Assets.xcassets */,
+				7C23DC19266B2F9C0019DC85 /* Lessons */,
+				7CCE19ED2675AD1C00CA9C82 /* PDF */,
+				7CBB8C322647209C0039203B /* PersistenceManager */,
+				7CBB8C2C2647209C0039203B /* SpeechToText */,
+				7CBB8C272647209C0039203B /* SpeechVisualization */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		7CBB8BD5264720770039203B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CBB8BD4264720770039203B /* Fearless.app */,
+				7CBB8BDC264720770039203B /* Fearless.app */,
+				7CBB8BE4264720770039203B /* Tests iOS.xctest */,
+				7CBB8BEF264720770039203B /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CBB8BD6264720770039203B /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CBB8BD7264720770039203B /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		7CBB8BDD264720770039203B /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CBB8BDE264720770039203B /* Info.plist */,
+				7CBB8BDF264720770039203B /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		7CBB8BE7264720770039203B /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CBB8BE8264720770039203B /* Tests_iOS.swift */,
+				7CBB8BEA264720770039203B /* Info.plist */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		7CBB8BF2264720770039203B /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				7CBB8BF3264720770039203B /* Tests_macOS.swift */,
+				7CBB8BF5264720770039203B /* Info.plist */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+		7CBB8C272647209C0039203B /* SpeechVisualization */ = {
+			isa = PBXGroup;
+			children = (
+				7CBB8C282647209C0039203B /* VisualBarView.swift */,
+				7CBB8C292647209C0039203B /* MicManager.swift */,
+			);
+			path = SpeechVisualization;
+			sourceTree = "<group>";
+		};
+		7CBB8C2C2647209C0039203B /* SpeechToText */ = {
+			isa = PBXGroup;
+			children = (
+				7CBB8C2D2647209C0039203B /* SpeechManager.swift */,
+			);
+			path = SpeechToText;
+			sourceTree = "<group>";
+		};
+		7CBB8C322647209C0039203B /* PersistenceManager */ = {
+			isa = PBXGroup;
+			children = (
+				7CBB8C332647209C0039203B /* Persistence.swift */,
+				7CBB8C342647209C0039203B /* TodoList.xcdatamodeld */,
+			);
+			path = PersistenceManager;
+			sourceTree = "<group>";
+		};
+		7CCE19ED2675AD1C00CA9C82 /* PDF */ = {
+			isa = PBXGroup;
+			children = (
+				7C7CEAE82676864B00119564 /* IntroToPublicSpeaking.pdf */,
+				7C7CEAF226768A8500119564 /* BodyLanguage.pdf */,
+				7C7CEAEC267689EE00119564 /* StageFright.pdf */,
+				7C7CEAEE267689F300119564 /* Storytelling.pdf */,
+				7C7CEAF0267689F900119564 /* InspireYourAudience.pdf */,
+			);
+			path = PDF;
+			sourceTree = "<group>";
+		};
+		95D8B32CD1ABDF8C30EE8CA8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				236FAD45E2AAEF40FF5750E4 /* Pods_Fearless__iOS_.framework */,
+				9786D176166F788E569D2E76 /* Pods_Fearless__macOS_.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CBB8BD3264720770039203B /* Fearless (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CBB8C02264720770039203B /* Build configuration list for PBXNativeTarget "Fearless (iOS)" */;
+			buildPhases = (
+				CA94ACB1026ED6A935FA4717 /* [CP] Check Pods Manifest.lock */,
+				7CBB8BD0264720770039203B /* Sources */,
+				7CBB8BD1264720770039203B /* Frameworks */,
+				7CBB8BD2264720770039203B /* Resources */,
+				73EF353CE3435F0C895EDA8B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fearless (iOS)";
+			productName = "Fearless (iOS)";
+			productReference = 7CBB8BD4264720770039203B /* Fearless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CBB8BDB264720770039203B /* Fearless (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CBB8C05264720770039203B /* Build configuration list for PBXNativeTarget "Fearless (macOS)" */;
+			buildPhases = (
+				FCEB101B3B91F85E65B7F045 /* [CP] Check Pods Manifest.lock */,
+				7CBB8BD8264720770039203B /* Sources */,
+				7CBB8BD9264720770039203B /* Frameworks */,
+				7CBB8BDA264720770039203B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fearless (macOS)";
+			productName = "Fearless (macOS)";
+			productReference = 7CBB8BDC264720770039203B /* Fearless.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7CBB8BE3264720770039203B /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CBB8C08264720770039203B /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				7CBB8BE0264720770039203B /* Sources */,
+				7CBB8BE1264720770039203B /* Frameworks */,
+				7CBB8BE2264720770039203B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CBB8BE6264720770039203B /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = 7CBB8BE4264720770039203B /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7CBB8BEE264720770039203B /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CBB8C0B264720770039203B /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				7CBB8BEB264720770039203B /* Sources */,
+				7CBB8BEC264720770039203B /* Frameworks */,
+				7CBB8BED264720770039203B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CBB8BF1264720770039203B /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = 7CBB8BEF264720770039203B /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CBB8BC5264720750039203B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7CBB8BD3264720770039203B = {
+						CreatedOnToolsVersion = 12.4;
+						LastSwiftMigration = 1240;
+					};
+					7CBB8BDB264720770039203B = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					7CBB8BE3264720770039203B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7CBB8BD3264720770039203B;
+					};
+					7CBB8BEE264720770039203B = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = 7CBB8BDB264720770039203B;
+					};
+				};
+			};
+			buildConfigurationList = 7CBB8BC8264720750039203B /* Build configuration list for PBXProject "Fearless" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7CBB8BC4264720750039203B;
+			productRefGroup = 7CBB8BD5264720770039203B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CBB8BD3264720770039203B /* Fearless (iOS) */,
+				7CBB8BDB264720770039203B /* Fearless (macOS) */,
+				7CBB8BE3264720770039203B /* Tests iOS */,
+				7CBB8BEE264720770039203B /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CBB8BD2264720770039203B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C7CEAEF267689F300119564 /* Storytelling.pdf in Resources */,
+				7C7CEAF326768A8500119564 /* BodyLanguage.pdf in Resources */,
+				7C7CEAE92676864B00119564 /* IntroToPublicSpeaking.pdf in Resources */,
+				7CBB8C3D2647209C0039203B /* Assets.xcassets in Resources */,
+				7C23DC1F266B328C0019DC85 /* slides.json in Resources */,
+				3A2D8BCE26B2D18C0060D628 /* Podfile in Resources */,
+				7C7CEAF1267689F900119564 /* InspireYourAudience.pdf in Resources */,
+				7C7CEAED267689EE00119564 /* StageFright.pdf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BDA264720770039203B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A2D8BCF26B2D18C0060D628 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BE2264720770039203B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BED264720770039203B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		73EF353CE3435F0C895EDA8B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fearless (iOS)/Pods-Fearless (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fearless (iOS)/Pods-Fearless (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fearless (iOS)/Pods-Fearless (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA94ACB1026ED6A935FA4717 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fearless (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCEB101B3B91F85E65B7F045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fearless (macOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CBB8BD0264720770039203B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A769FC426C13A8600EE49F8 /* Number+Extensions.swift in Sources */,
+				3AE6CC4C26B8103E00BA4EC1 /* FLFormatter.swift in Sources */,
+				3A777D1226B18538004673C1 /* Color+Extensions.swift in Sources */,
+				3A29096126BC29A400A8FBBB /* CustomizeWordsView.swift in Sources */,
+				7CBB8C3B2647209C0039203B /* MenuView.swift in Sources */,
+				7CBB8C3C2647209C0039203B /* SpeechManager.swift in Sources */,
+				3A29094026BBECBF00A8FBBB /* String+Extensions.swift in Sources */,
+				3A29093A26BBBF0F00A8FBBB /* Optional+Extensions.swift in Sources */,
+				3A27D9A926BD89BA00BD972C /* TagListView.swift in Sources */,
+				7CBB8C3F2647209C0039203B /* FearlessApp.swift in Sources */,
+				7CBB8C432647209C0039203B /* ViewRouter.swift in Sources */,
+				7CBB8C382647209C0039203B /* VisualBarView.swift in Sources */,
+				7CBB8C3E2647209C0039203B /* fearless.swift in Sources */,
+				3A27D97F26BD0AEB00BD972C /* TagView.swift in Sources */,
+				3A3D25C226BAC8200083090E /* FLWord.swift in Sources */,
+				7CCE19F32675BF6700CA9C82 /* SlidesList.swift in Sources */,
+				3A311B1F26C1B1E9004F1B73 /* HorizontalLine.swift in Sources */,
+				3A777D0C26B17B78004673C1 /* LearnView.swift in Sources */,
+				3A2D8BB126B27BAC0060D628 /* TabBar.swift in Sources */,
+				3A02DB5126BA750800E0C94D /* RecordingDetailView.swift in Sources */,
+				7C23DC1B266B30470019DC85 /* SlideProperties.swift in Sources */,
+				3A2D8BBE26B2CD240060D628 /* Constants.swift in Sources */,
+				7C9024D9266DC4E300A8EA48 /* SlidesRow.swift in Sources */,
+				7CBB8C422647209C0039203B /* TodoList.xcdatamodeld in Sources */,
+				3A419F3A2692E53200EC3F08 /* VIew+Extension.swift in Sources */,
+				3AE2AF7326B41A8D00E8E967 /* RecordRow.swift in Sources */,
+				7CBB8C402647209C0039203B /* ContentView.swift in Sources */,
+				7CBB8C372647209C0039203B /* AccountInfo.swift in Sources */,
+				3A769FBA26C0F86E00EE49F8 /* FLFileManager.swift in Sources */,
+				7CBB8C3A2647209C0039203B /* BottomTab.swift in Sources */,
+				7CBB8C392647209C0039203B /* MicManager.swift in Sources */,
+				7CCE19F12675BB5800CA9C82 /* PDFView.swift in Sources */,
+				7CBB8C412647209C0039203B /* Persistence.swift in Sources */,
+				3A27D97926BD0AAB00BD972C /* FLTag.swift in Sources */,
+				3A777D0626B17A4E004673C1 /* MainView.swift in Sources */,
+				7CCE19F52675C4B700CA9C82 /* SlideDetail.swift in Sources */,
+				3A769FB026C0F66700EE49F8 /* FLMediaPlayer.swift in Sources */,
+				3A2D8BB826B2B6C90060D628 /* PracticeView.swift in Sources */,
+				7C9024D3266DC2DA00A8EA48 /* ModelData.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BD8264720770039203B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BE0264720770039203B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBB8BE9264720770039203B /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7CBB8BEB264720770039203B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CBB8BF4264720770039203B /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CBB8BE6264720770039203B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CBB8BD3264720770039203B /* Fearless (iOS) */;
+			targetProxy = 7CBB8BE5264720770039203B /* PBXContainerItemProxy */;
+		};
+		7CBB8BF1264720770039203B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7CBB8BDB264720770039203B /* Fearless (macOS) */;
+			targetProxy = 7CBB8BF0264720770039203B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		7CBB8C00264720770039203B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7CBB8C01264720770039203B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		7CBB8C03264720770039203B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C3E03C19EE7FC873B0A357C /* Pods-Fearless (iOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1.5;
+				DEVELOPMENT_TEAM = D75GVY97G8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.United-Spearkers-Global.Fearless";
+				PRODUCT_NAME = Fearless;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7CBB8C04264720770039203B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51E69CE84BA7E6904278392D /* Pods-Fearless (iOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CURRENT_PROJECT_VERSION = 1.5;
+				DEVELOPMENT_TEAM = D75GVY97G8;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.5;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.United-Spearkers-Global.Fearless";
+				PRODUCT_NAME = Fearless;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CBB8C06264720770039203B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D300E14EB1E9592B6E44CAF2 /* Pods-Fearless (macOS).debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D75GVY97G8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "United-Spearkers-Global.Fearless";
+				PRODUCT_NAME = Fearless;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		7CBB8C07264720770039203B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 14055BC5EBDAD54D4B9B34B8 /* Pods-Fearless (macOS).release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D75GVY97G8;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = macOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "United-Spearkers-Global.Fearless";
+				PRODUCT_NAME = Fearless;
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		7CBB8C09264720770039203B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D75GVY97G8;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "United-Spearkers-Global.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fearless (iOS)";
+			};
+			name = Debug;
+		};
+		7CBB8C0A264720770039203B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = D75GVY97G8;
+				INFOPLIST_FILE = "Tests iOS/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "United-Spearkers-Global.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fearless (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7CBB8C0C264720770039203B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D75GVY97G8;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "United-Spearkers-Global.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fearless (macOS)";
+			};
+			name = Debug;
+		};
+		7CBB8C0D264720770039203B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = D75GVY97G8;
+				INFOPLIST_FILE = "Tests macOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "United-Spearkers-Global.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Fearless (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CBB8BC8264720750039203B /* Build configuration list for PBXProject "Fearless" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBB8C00264720770039203B /* Debug */,
+				7CBB8C01264720770039203B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CBB8C02264720770039203B /* Build configuration list for PBXNativeTarget "Fearless (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBB8C03264720770039203B /* Debug */,
+				7CBB8C04264720770039203B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CBB8C05264720770039203B /* Build configuration list for PBXNativeTarget "Fearless (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBB8C06264720770039203B /* Debug */,
+				7CBB8C07264720770039203B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CBB8C08264720770039203B /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBB8C09264720770039203B /* Debug */,
+				7CBB8C0A264720770039203B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CBB8C0B264720770039203B /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CBB8C0C264720770039203B /* Debug */,
+				7CBB8C0D264720770039203B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7CBB8C342647209C0039203B /* TodoList.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7CBB8C352647209C0039203B /* Shared.xcdatamodel */,
+			);
+			currentVersion = 7CBB8C352647209C0039203B /* Shared.xcdatamodel */;
+			path = TodoList.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7CBB8BC5264720750039203B /* Project object */;
+}
