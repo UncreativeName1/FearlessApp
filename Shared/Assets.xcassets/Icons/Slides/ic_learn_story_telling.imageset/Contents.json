@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "ic_learn_story_telling@3x.png",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
