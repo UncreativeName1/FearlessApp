@@ -8,7 +8,7 @@ Through the app, you will be able to learn various aspects of public speaking wi
 Learn, practice, and improve your public speaking with Fearless.
 
 United Speakers Global Site
-[![United Speakers Global](https://github.com/UncreativeName1/Fearless/blob/main/Shared/Assets.xcassets/Microphone.imageset/Microphone.png)](https://www.unitedspeakers.org/)
+[![United Speakers Global](https://github.com/UncreativeName1/FearlessApp/blob/main/Shared/Assets.xcassets/Microphone.imageset/Microphone.png)](https://www.unitedspeakers.org/)
 
 Download on the App Store!
-[![Fearless App Store Download](https://github.com/UncreativeName1/Fearless/blob/main/Shared/Assets.xcassets/downloadappstore.imageset/downloadappstore.png)](https://apps.apple.com/ca/app/fearless/id1581042359)
+[![Fearless App Store Download](https://github.com/UncreativeName1/FearlessApp/blob/main/Shared/Assets.xcassets/downloadappstore.imageset/downloadappstore.png)](https://apps.apple.com/ca/app/fearless/id1581042359)
